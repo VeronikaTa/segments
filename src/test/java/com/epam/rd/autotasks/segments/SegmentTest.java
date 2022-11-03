@@ -1,6 +1,8 @@
-package com.epam.rd.autotasks.segments;
+package com.epam.training.student_veronika_tarasova.segments.src.test.java.com.epam.rd.autotasks.segments;
 
 
+import com.epam.training.student_veronika_tarasova.segments.src.main.java.com.epam.rd.autotasks.segments.Point;
+import com.epam.training.student_veronika_tarasova.segments.src.main.java.com.epam.rd.autotasks.segments.Segment;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -9,10 +11,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.StringJoiner;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SegmentTest {
 

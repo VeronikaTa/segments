@@ -1,10 +1,6 @@
-package com.epam.rd.autotasks.segments;
+package com.epam.training.student_veronika_tarasova.segments.src.main.java.com.epam.rd.autotasks.segments;
 
-import static java.lang.Math.abs;
-import static java.lang.Math.sqrt;
-import static java.lang.StrictMath.pow;
-
-class Segment {
+ public class Segment {
 
     Point start;
     Point end;
@@ -27,19 +23,19 @@ class Segment {
         }
     }
 
-    double length() {
+    public double length() {
         double length = Math.sqrt(Math.pow((this.end.getX() - this.start.getX()), 2.0) + Math.pow((this.end.getY() - this.start.getY()), 2.0));
         return length;
     }
 
-    Point middle() {
+    public Point middle() {
         double x = ((this.start.getX() + this.end.getX()) / 2);
         double y = ((this.start.getY() + this.end.getY()) / 2);
         Point middle = new Point(x, y);
         return middle;
     }
 
-    Point intersection(Segment another) {
+    public Point intersection(Segment another) {
         if(another == null){
             throw new IllegalArgumentException();
         }

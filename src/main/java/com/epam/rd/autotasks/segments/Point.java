@@ -1,6 +1,6 @@
-package com.epam.rd.autotasks.segments;
+package com.epam.training.student_veronika_tarasova.segments.src.main.java.com.epam.rd.autotasks.segments;
 
-class Point {
+public class Point {
     private double x;
     private double y;
 
